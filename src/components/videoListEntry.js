@@ -10,7 +10,7 @@ angular.module('video-player')
   `
   <li class="video-list-entry media">
     <div class="media-left">
-      <img class="media-object" ng-src={{$ctrl.video.snippet.thumbnails.default.url}}/>
+      <img class="media-object" ng-src="{{$ctrl.video.snippet.thumbnails.default.url}}"/>
     </div>
     <div class="media-body">
       <div class="video-list-entry-title" ng-click="$ctrl.onClick($ctrl.video)">{{$ctrl.video.snippet.title}}</div>
