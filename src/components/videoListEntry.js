@@ -1,12 +1,12 @@
 
 angular.module('video-player')
-.component('videoListEntry', {
-  bindings: {
-    video: '<',
-    onClick: '<'
-  },
+  .component('videoListEntry', {
+    bindings: {
+      video: '<',
+      onClick: '<'
+    },
 
-  template:
+    template:
   `
   <li class="video-list-entry media">
     <div class="media-left">
@@ -18,4 +18,4 @@ angular.module('video-player')
     </div>
   </li>
   `
-});
+  });
